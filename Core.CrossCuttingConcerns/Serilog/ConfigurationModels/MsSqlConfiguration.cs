@@ -15,7 +15,7 @@ public class MsSqlConfiguration
 
     public MsSqlConfiguration(string connectionString, string tableName, bool autoCreateSqlTable)
     {
-        ConnectionString = connectionString;
+        ConnectionString = connectionString; 
         TableName = tableName;
         AutoCreateSqlTable = autoCreateSqlTable;
     }

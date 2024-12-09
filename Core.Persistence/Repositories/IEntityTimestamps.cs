@@ -2,7 +2,7 @@
 
 public interface IEntityTimestamps
 {
-    DateTime? CreatedDate { get; set; }
+    DateTime CreatedDate { get; set; }
     DateTime? UpdateDate { get; set; }
     DateTime? DeletedDate { get; set; }
 }

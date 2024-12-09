@@ -3,7 +3,7 @@
 public class Entity<TId> : IEntityTimestamps
 {
     public TId Id { get; set; }
-    public DateTime? CreatedDate { get; set; }
+    public DateTime CreatedDate { get; set; }
     public DateTime? UpdateDate { get; set; }
     public DateTime? DeletedDate { get; set; }
 
